@@ -30,7 +30,7 @@ class assignment{
             System.out.println("The work has been done succesfully!");
         }
         catch(NumberFormatException obj){
-            System.out.print("Entered input is not a valid format for an integer");
+            System.out.print("Entered input is not a valid format for an integer "+obj);
         }
 
         

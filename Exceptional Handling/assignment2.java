@@ -31,13 +31,8 @@ class assignment2{
         System.out.print("Enter the index of the array element you want to access: ");
         input=sc.nextInt();
         try{
-            for(int i=0;i<n;i++){
-                if(i==input){
-                    System.out.println("The array element at index "+input+" = "+arr[i]);
-                    System.out.println("The array element successfully accessed");
-                    break;
-            }
-        }
+            System.out.println(arr[input]);
+            System.out.println("The array element successfully accessed");
     }
         catch(IndexOutOfBoundsException obj){
             System.out.println(obj);
