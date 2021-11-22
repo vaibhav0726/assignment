@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch assignment4",
+            "request": "launch",
+            "mainClass": "assignment4",
+            "projectName": "assignment_c10cf804"
+        },
+        {
+            "type": "java",
             "name": "Launch MathOperation",
             "request": "launch",
             "mainClass": "MathOperation",

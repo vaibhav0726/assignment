@@ -8,18 +8,12 @@ public class MathOperation {
         try{
         for(int i=0;i<5;i++){
             arr[i]=Integer.parseInt(args[i]);
-            sum=arr[i]+sum; //this statement is generating error
+            sum=arr[i]+sum; //this statement is generating exception
         }
         System.out.println("Average:-"+(float)sum/5);
         System.out.println("Sum:-"+sum);
     }
-    catch(ArithmeticException e){
-        System.out.println(e);
-    }
-    catch(NumberFormatException e){
-        System.out.println(e);
-    }
-    catch(ArrayIndexOutOfBoundsException e){
+    catch(ArithmeticException | NumberFormatException | ArrayIndexOutOfBoundsException e){
         System.out.println(e);
     }
     }
